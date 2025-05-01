@@ -6,18 +6,18 @@ Git is a version control tool that tracks commit history and allow users to shar
 Conceptually, there are 2 repos. One in your local machine and another one in Github. The one in your local machine is where you make all changes. Then, you need to upload all local changes to the remote repo, to save it on cloud.
 
 
-##Set Up
-Please follow this Youtube video for setting up git: [https://www.youtube.com/watch?v=enYWHZNgXqM] (https://www.youtube.com/watch?v=enYWHZNgXqM)
+## Set Up
+Please follow this Youtube video for setting up git: [https://www.youtube.com/watch?v=enYWHZNgXqM](https://www.youtube.com/watch?v=enYWHZNgXqM)
 
 Ask generative AI like ChatGPT or Gemini when you are lost
 
-##Before Editing
+## Before Editing
 synchronize all changes made by other teammate:
 ``` bash
 git pull origin main
 ```
 
-##After Editing
+## After Editing
 1. check changes
 2. stage all changes
 3. add a commit message
@@ -29,7 +29,7 @@ git commmit -m "Your Commit Message"
 git push
 ```
 
-##Merge Conflict
+## Merge Conflict
 **Contact each other immediately to solve merge conflict**
 
 
